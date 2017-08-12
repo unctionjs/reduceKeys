@@ -1,5 +1,5 @@
 {
-  "name": "@unction/template",
+  "name": "@unction/reducekeys",
   "version": "1.0.0",
   "description": "Reduce over a iterable's keys",
   "keywords": [
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/tempLate#readme",
-  "repository": "github:unctionjs/tempLate",
-  "bugs": "https://github.com/unctionjs/tempLate/issues",
+  "homepage": "https://github.com/unctionjs/reduceKeys#readme",
+  "repository": "github:unctionjs/reduceKeys",
+  "bugs": "https://github.com/unctionjs/reduceKeys/issues",
   "main": "transpiled/source.js",
   "scripts": {
     "postinstall": "npm run build && flow-typed install",
