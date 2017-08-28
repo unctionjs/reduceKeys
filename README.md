@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> (AccumulatedType -> KeyType -> AccumulatedType) -> InitialType -> IterableType -> AccumulatedType
+> (AccumulatedType -> KeyType -> AccumulatedType) -> InitialType -> FunctorType -> AccumulatedType
 
 Reduce over a iterable's keys.
 
