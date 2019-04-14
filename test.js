@@ -1,16 +1,16 @@
 /* eslint-disable flowtype/require-return-type */
-import {test} from "tap"
+import {test} from "tap";
 
-import reduceKeys from "./index"
+import reduceKeys from "./index";
 
 test(({equal, end}) => {
   equal(
     reduceKeys((accumulation) => (current) => `${accumulation}/${current}`)(".")(["a", "b", "c"]),
     "./0/1/2"
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({equal, end}) => {
   equal(
@@ -20,7 +20,7 @@ test(({equal, end}) => {
       ccc: "c",
     }),
     "./aaa/bbb/ccc"
-  )
+  );
 
-  end()
-})
+  end();
+});
