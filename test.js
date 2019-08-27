@@ -1,7 +1,7 @@
-/* eslint-disable flowtype/require-return-type */
+
 import {test} from "tap";
 
-import reduceKeys from "./index";
+import reduceKeys from "./";
 
 test(({equal, end}) => {
   equal(
