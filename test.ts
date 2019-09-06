@@ -1,5 +1,5 @@
 
-import reduceKeys from "./index.ts";
+import reduceKeys from "./index";
 
 test(() => {
   expect(
